@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+#index-background-section {
+  position: relative;
+  display: flex;
+  aspect-ratio: auto;
+  height: calc(var(--spacing) * 160);
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/Taniti-Tourism-Website/assets/huts.jpg);
+  background-size: auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
